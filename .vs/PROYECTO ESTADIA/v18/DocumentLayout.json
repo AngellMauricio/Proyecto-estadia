@@ -1,0 +1,184 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Angel\\Desktop\\PROYECTO ESTADIA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{315A0E3A-3ED7-4EBF-BCD7-98450457C24C}|PROYECTO ESTADIA.csproj|C:\\Users\\Angel\\Desktop\\PROYECTO ESTADIA\\clsprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{315A0E3A-3ED7-4EBF-BCD7-98450457C24C}|PROYECTO ESTADIA.csproj|solutionrelative:clsprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{315A0E3A-3ED7-4EBF-BCD7-98450457C24C}|PROYECTO ESTADIA.csproj|c:\\users\\angel\\desktop\\proyecto estadia\\frmprincipal.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{315A0E3A-3ED7-4EBF-BCD7-98450457C24C}|PROYECTO ESTADIA.csproj|solutionrelative:frmprincipal.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{315A0E3A-3ED7-4EBF-BCD7-98450457C24C}|PROYECTO ESTADIA.csproj|C:\\Users\\Angel\\Desktop\\PROYECTO ESTADIA\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{315A0E3A-3ED7-4EBF-BCD7-98450457C24C}|PROYECTO ESTADIA.csproj|solutionrelative:frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{315A0E3A-3ED7-4EBF-BCD7-98450457C24C}|PROYECTO ESTADIA.csproj|C:\\Users\\Angel\\Desktop\\PROYECTO ESTADIA\\frminventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{315A0E3A-3ED7-4EBF-BCD7-98450457C24C}|PROYECTO ESTADIA.csproj|solutionrelative:frminventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{315A0E3A-3ED7-4EBF-BCD7-98450457C24C}|PROYECTO ESTADIA.csproj|C:\\Users\\Angel\\Desktop\\PROYECTO ESTADIA\\frmalertam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{315A0E3A-3ED7-4EBF-BCD7-98450457C24C}|PROYECTO ESTADIA.csproj|solutionrelative:frmalertam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{315A0E3A-3ED7-4EBF-BCD7-98450457C24C}|PROYECTO ESTADIA.csproj|C:\\Users\\Angel\\Desktop\\PROYECTO ESTADIA\\frmagregarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{315A0E3A-3ED7-4EBF-BCD7-98450457C24C}|PROYECTO ESTADIA.csproj|solutionrelative:frmagregarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{315A0E3A-3ED7-4EBF-BCD7-98450457C24C}|PROYECTO ESTADIA.csproj|C:\\Users\\Angel\\Desktop\\PROYECTO ESTADIA\\frmventaproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{315A0E3A-3ED7-4EBF-BCD7-98450457C24C}|PROYECTO ESTADIA.csproj|solutionrelative:frmventaproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{315A0E3A-3ED7-4EBF-BCD7-98450457C24C}|PROYECTO ESTADIA.csproj|C:\\Users\\Angel\\Desktop\\PROYECTO ESTADIA\\frmventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{315A0E3A-3ED7-4EBF-BCD7-98450457C24C}|PROYECTO ESTADIA.csproj|solutionrelative:frmventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{315A0E3A-3ED7-4EBF-BCD7-98450457C24C}|PROYECTO ESTADIA.csproj|C:\\Users\\Angel\\Desktop\\PROYECTO ESTADIA\\frmalertaeliminar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{315A0E3A-3ED7-4EBF-BCD7-98450457C24C}|PROYECTO ESTADIA.csproj|solutionrelative:frmalertaeliminar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|PROYECTO ESTADIA||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 256,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmPrincipal.resx",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\PROYECTO ESTADIA\\FrmPrincipal.resx",
+              "RelativeDocumentMoniker": "FrmPrincipal.resx",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\PROYECTO ESTADIA\\FrmPrincipal.resx",
+              "RelativeToolTip": "FrmPrincipal.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-05-19T22:51:18.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmPrincipal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\PROYECTO ESTADIA\\FrmPrincipal.cs",
+              "RelativeDocumentMoniker": "FrmPrincipal.cs",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\PROYECTO ESTADIA\\FrmPrincipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FrmPrincipal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T22:51:08.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmInventario.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\PROYECTO ESTADIA\\FrmInventario.cs",
+              "RelativeDocumentMoniker": "FrmInventario.cs",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\PROYECTO ESTADIA\\FrmInventario.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FrmInventario.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T22:48:36.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClsPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\PROYECTO ESTADIA\\ClsPrincipal.cs",
+              "RelativeDocumentMoniker": "ClsPrincipal.cs",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\PROYECTO ESTADIA\\ClsPrincipal.cs",
+              "RelativeToolTip": "ClsPrincipal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T22:48:26.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FrmVentas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\PROYECTO ESTADIA\\FrmVentas.cs",
+              "RelativeDocumentMoniker": "FrmVentas.cs",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\PROYECTO ESTADIA\\FrmVentas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FrmVentas.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T22:47:18.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FrmVentaproductos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\PROYECTO ESTADIA\\FrmVentaproductos.cs",
+              "RelativeDocumentMoniker": "FrmVentaproductos.cs",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\PROYECTO ESTADIA\\FrmVentaproductos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FrmVentaproductos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T22:47:16.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FrmAgregarUsuario.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\PROYECTO ESTADIA\\FrmAgregarUsuario.cs",
+              "RelativeDocumentMoniker": "FrmAgregarUsuario.cs",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\PROYECTO ESTADIA\\FrmAgregarUsuario.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FrmAgregarUsuario.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T22:47:14.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmAlertaM.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\PROYECTO ESTADIA\\FrmAlertaM.cs",
+              "RelativeDocumentMoniker": "FrmAlertaM.cs",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\PROYECTO ESTADIA\\FrmAlertaM.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FrmAlertaM.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T22:47:12.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FrmAlertaEliminar.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\PROYECTO ESTADIA\\FrmAlertaEliminar.cs",
+              "RelativeDocumentMoniker": "FrmAlertaEliminar.cs",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\PROYECTO ESTADIA\\FrmAlertaEliminar.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FrmAlertaEliminar.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T22:47:12.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PROYECTO ESTADIA",
+              "DocumentMoniker": "C:\\Users\\Angel\\Desktop\\PROYECTO ESTADIA\\PROYECTO ESTADIA.csproj",
+              "RelativeDocumentMoniker": "PROYECTO ESTADIA.csproj",
+              "ToolTip": "C:\\Users\\Angel\\Desktop\\PROYECTO ESTADIA\\PROYECTO ESTADIA.csproj",
+              "RelativeToolTip": "PROYECTO ESTADIA.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-05-19T22:46:54.099Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
