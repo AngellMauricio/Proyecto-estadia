@@ -1,0 +1,15 @@
+# Visual Studio - Carpetas de Compilación
+[Bb]in/
+[Oo]bj/
+
+# Carpetas ocultas de VS y herramientas
+.vs/
+.vsext/
+*.user
+*.userosscache
+*.suo
+
+# Archivos temporales de compilación y reportes de error
+*.pdb
+*.log
+*.tmp
