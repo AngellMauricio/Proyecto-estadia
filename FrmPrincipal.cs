@@ -46,5 +46,20 @@ namespace PROYECTO_ESTADIA
             principal = new ClsPrincipal();
             principal.agregaralcontenedor(new FrmConfiguraciones(), pnlcontenedor);
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pnlcontenedor_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

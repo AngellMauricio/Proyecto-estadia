@@ -28,5 +28,50 @@ namespace PROYECTO_ESTADIA
             FrmReporteDeVentas reportv = new FrmReporteDeVentas();
             reportv.Show();
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FrmVentas_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnbuscar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnborrar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnagregarproducto_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
