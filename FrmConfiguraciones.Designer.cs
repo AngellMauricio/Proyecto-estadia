@@ -34,9 +34,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.pnlConfiguraciones = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -54,13 +52,13 @@
             // lblEditarticket
             // 
             this.lblEditarticket.AutoSize = true;
-            this.lblEditarticket.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEditarticket.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEditarticket.Image = global::PROYECTO_ESTADIA.Properties.Resources.boton_editar;
             this.lblEditarticket.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblEditarticket.Location = new System.Drawing.Point(60, 368);
+            this.lblEditarticket.Location = new System.Drawing.Point(61, 232);
             this.lblEditarticket.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblEditarticket.Name = "lblEditarticket";
-            this.lblEditarticket.Size = new System.Drawing.Size(174, 26);
+            this.lblEditarticket.Size = new System.Drawing.Size(190, 29);
             this.lblEditarticket.TabIndex = 5;
             this.lblEditarticket.Text = "       Editar Ticket";
             this.lblEditarticket.Click += new System.EventHandler(this.lblEditarticket_Click);
@@ -68,13 +66,13 @@
             // lblagregrausuarios
             // 
             this.lblagregrausuarios.AutoSize = true;
-            this.lblagregrausuarios.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblagregrausuarios.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblagregrausuarios.Image = global::PROYECTO_ESTADIA.Properties.Resources.agregar_usuario__1_;
             this.lblagregrausuarios.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblagregrausuarios.Location = new System.Drawing.Point(60, 295);
+            this.lblagregrausuarios.Location = new System.Drawing.Point(48, 151);
             this.lblagregrausuarios.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblagregrausuarios.Name = "lblagregrausuarios";
-            this.lblagregrausuarios.Size = new System.Drawing.Size(213, 26);
+            this.lblagregrausuarios.Size = new System.Drawing.Size(232, 29);
             this.lblagregrausuarios.TabIndex = 4;
             this.lblagregrausuarios.Text = "      Agregar usuarios";
             this.lblagregrausuarios.Click += new System.EventHandler(this.lblagregrausuarios_Click);
@@ -84,7 +82,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(130, 90);
+            this.label2.Location = new System.Drawing.Point(112, 42);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(89, 32);
@@ -95,7 +93,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(474, 76);
+            this.label1.Location = new System.Drawing.Point(353, 11);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(264, 37);
@@ -104,22 +102,11 @@
             // 
             // pnlConfiguraciones
             // 
-            this.pnlConfiguraciones.Location = new System.Drawing.Point(328, 132);
+            this.pnlConfiguraciones.Location = new System.Drawing.Point(328, 88);
             this.pnlConfiguraciones.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pnlConfiguraciones.Name = "pnlConfiguraciones";
-            this.pnlConfiguraciones.Size = new System.Drawing.Size(1605, 960);
+            this.pnlConfiguraciones.Size = new System.Drawing.Size(1605, 1004);
             this.pnlConfiguraciones.TabIndex = 3;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::PROYECTO_ESTADIA.Properties.Resources.configuraciones;
-            this.pictureBox1.Location = new System.Drawing.Point(367, 65);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(99, 57);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
             // 
             // FrmConfiguraciones
             // 
@@ -128,7 +115,6 @@
             this.ClientSize = new System.Drawing.Size(1946, 1106);
             this.Controls.Add(this.pnlConfiguraciones);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -136,7 +122,6 @@
             this.Text = "FrmConfiguraciones";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -146,7 +131,6 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel pnlConfiguraciones;
         private System.Windows.Forms.Label lblagregrausuarios;

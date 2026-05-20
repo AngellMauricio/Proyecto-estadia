@@ -71,9 +71,9 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.nuevoToolStripMenuItem,
             this.eDITARToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 33);
+            this.menuStrip1.Location = new System.Drawing.Point(0, 35);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1946, 42);
+            this.menuStrip1.Size = new System.Drawing.Size(1946, 40);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -98,10 +98,10 @@
             // pnlinventario
             // 
             this.pnlinventario.BackColor = System.Drawing.Color.White;
-            this.pnlinventario.Location = new System.Drawing.Point(0, 90);
+            this.pnlinventario.Location = new System.Drawing.Point(0, 80);
             this.pnlinventario.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pnlinventario.Name = "pnlinventario";
-            this.pnlinventario.Size = new System.Drawing.Size(2805, 1006);
+            this.pnlinventario.Size = new System.Drawing.Size(2805, 1012);
             this.pnlinventario.TabIndex = 80;
             // 
             // FrmInventario
