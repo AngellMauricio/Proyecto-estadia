@@ -95,7 +95,7 @@
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.Black;
-            this.textBox1.Location = new System.Drawing.Point(1288, 650);
+            this.textBox1.Location = new System.Drawing.Point(1288, 648);
             this.textBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(282, 66);
@@ -196,10 +196,10 @@
             this.btncobrar.ForeColor = System.Drawing.Color.Black;
             this.btncobrar.Image = global::PROYECTO_ESTADIA.Properties.Resources.ingreso__1_;
             this.btncobrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btncobrar.Location = new System.Drawing.Point(1075, 650);
+            this.btncobrar.Location = new System.Drawing.Point(1075, 660);
             this.btncobrar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btncobrar.Name = "btncobrar";
-            this.btncobrar.Size = new System.Drawing.Size(205, 77);
+            this.btncobrar.Size = new System.Drawing.Size(205, 44);
             this.btncobrar.TabIndex = 72;
             this.btncobrar.Text = "F12 Cobrar.";
             this.btncobrar.UseVisualStyleBackColor = true;
