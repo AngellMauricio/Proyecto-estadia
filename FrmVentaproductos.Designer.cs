@@ -188,6 +188,7 @@
             this.Name = "FrmVentaproductos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Venta de producto - Cobrar";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.FrmVentaproductos_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

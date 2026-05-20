@@ -83,11 +83,11 @@
     <Compile Include="FrmEliminarproductos.Designer.cs">
       <DependentUpon>FrmEliminarproductos.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmModificar productosr.cs">
+    <Compile Include="FrmModificarproductos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmModificar productosr.Designer.cs">
-      <DependentUpon>FrmModificar productosr.cs</DependentUpon>
+    <Compile Include="FrmModificarproductos.Designer.cs">
+      <DependentUpon>FrmModificarproductos.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmNuevoProductio.cs">
       <SubType>Form</SubType>
@@ -175,8 +175,8 @@
     <EmbeddedResource Include="FrmEliminarproductos.resx">
       <DependentUpon>FrmEliminarproductos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmModificar productosr.resx">
-      <DependentUpon>FrmModificar productosr.cs</DependentUpon>
+    <EmbeddedResource Include="FrmModificarproductos.resx">
+      <DependentUpon>FrmModificarproductos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmNuevoProductio.resx">
       <DependentUpon>FrmNuevoProductio.cs</DependentUpon>
