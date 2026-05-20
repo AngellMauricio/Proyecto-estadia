@@ -74,9 +74,9 @@
             this.eDITARToolStripMenuItem,
             this.eliminarToolStripMenuItem,
             this.categoriasToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 25);
+            this.menuStrip1.Location = new System.Drawing.Point(0, 27);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1651, 50);
+            this.menuStrip1.Size = new System.Drawing.Size(1651, 48);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -85,7 +85,7 @@
             this.nuevoToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nuevoToolStripMenuItem.Image = global::PROYECTO_ESTADIA.Properties.Resources.agregar_producto;
             this.nuevoToolStripMenuItem.Name = "nuevoToolStripMenuItem";
-            this.nuevoToolStripMenuItem.Size = new System.Drawing.Size(141, 52);
+            this.nuevoToolStripMenuItem.Size = new System.Drawing.Size(141, 44);
             this.nuevoToolStripMenuItem.Text = "Nuevo";
             this.nuevoToolStripMenuItem.Click += new System.EventHandler(this.nuevoToolStripMenuItem_Click);
             // 
@@ -93,7 +93,7 @@
             // 
             this.eDITARToolStripMenuItem.Image = global::PROYECTO_ESTADIA.Properties.Resources.editar;
             this.eDITARToolStripMenuItem.Name = "eDITARToolStripMenuItem";
-            this.eDITARToolStripMenuItem.Size = new System.Drawing.Size(211, 52);
+            this.eDITARToolStripMenuItem.Size = new System.Drawing.Size(155, 44);
             this.eDITARToolStripMenuItem.Text = "Modificar";
             this.eDITARToolStripMenuItem.Click += new System.EventHandler(this.eDITARToolStripMenuItem_Click);
             // 
@@ -101,7 +101,7 @@
             // 
             this.eliminarToolStripMenuItem.Image = global::PROYECTO_ESTADIA.Properties.Resources.borrar;
             this.eliminarToolStripMenuItem.Name = "eliminarToolStripMenuItem";
-            this.eliminarToolStripMenuItem.Size = new System.Drawing.Size(197, 52);
+            this.eliminarToolStripMenuItem.Size = new System.Drawing.Size(146, 44);
             this.eliminarToolStripMenuItem.Text = "Eliminar ";
             this.eliminarToolStripMenuItem.Click += new System.EventHandler(this.eliminarToolStripMenuItem_Click);
             // 
@@ -109,17 +109,17 @@
             // 
             this.categoriasToolStripMenuItem.Image = global::PROYECTO_ESTADIA.Properties.Resources.opciones;
             this.categoriasToolStripMenuItem.Name = "categoriasToolStripMenuItem";
-            this.categoriasToolStripMenuItem.Size = new System.Drawing.Size(228, 52);
+            this.categoriasToolStripMenuItem.Size = new System.Drawing.Size(166, 44);
             this.categoriasToolStripMenuItem.Text = "Categorias";
             this.categoriasToolStripMenuItem.Click += new System.EventHandler(this.categoriasToolStripMenuItem_Click);
             // 
             // pnlproductos
             // 
             this.pnlproductos.BackColor = System.Drawing.Color.White;
-            this.pnlproductos.Location = new System.Drawing.Point(13, 118);
+            this.pnlproductos.Location = new System.Drawing.Point(13, 80);
             this.pnlproductos.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pnlproductos.Name = "pnlproductos";
-            this.pnlproductos.Size = new System.Drawing.Size(1625, 618);
+            this.pnlproductos.Size = new System.Drawing.Size(1625, 656);
             this.pnlproductos.TabIndex = 75;
             // 
             // FrmProductos
