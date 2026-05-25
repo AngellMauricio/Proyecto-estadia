@@ -48,10 +48,10 @@
             // pnlcontenedor
             // 
             this.pnlcontenedor.BackColor = System.Drawing.Color.White;
-            this.pnlcontenedor.Location = new System.Drawing.Point(0, 92);
+            this.pnlcontenedor.Location = new System.Drawing.Point(0, 95);
             this.pnlcontenedor.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnlcontenedor.Name = "pnlcontenedor";
-            this.pnlcontenedor.Size = new System.Drawing.Size(1920, 910);
+            this.pnlcontenedor.Size = new System.Drawing.Size(1284, 607);
             this.pnlcontenedor.TabIndex = 1;
             this.pnlcontenedor.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlcontenedor_Paint);
             // 

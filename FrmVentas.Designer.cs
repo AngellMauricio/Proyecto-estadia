@@ -81,21 +81,25 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(14, 169);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.Size = new System.Drawing.Size(1723, 471);
+            this.dataGridView1.Size = new System.Drawing.Size(1614, 471);
             this.dataGridView1.TabIndex = 65;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // textBox1
             // 
+            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.Black;
-            this.textBox1.Location = new System.Drawing.Point(1288, 648);
+            this.textBox1.Location = new System.Drawing.Point(1346, 650);
             this.textBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(282, 66);
@@ -111,7 +115,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1750, 29);
+            this.panel1.Size = new System.Drawing.Size(1640, 29);
             this.panel1.TabIndex = 73;
             // 
             // label2
@@ -192,11 +196,13 @@
             // 
             // btncobrar
             // 
+            this.btncobrar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btncobrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btncobrar.ForeColor = System.Drawing.Color.Black;
             this.btncobrar.Image = global::PROYECTO_ESTADIA.Properties.Resources.ingreso__1_;
             this.btncobrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btncobrar.Location = new System.Drawing.Point(1076, 660);
+            this.btncobrar.Location = new System.Drawing.Point(1132, 660);
             this.btncobrar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btncobrar.Name = "btncobrar";
             this.btncobrar.Size = new System.Drawing.Size(206, 45);
@@ -210,7 +216,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1750, 740);
+            this.ClientSize = new System.Drawing.Size(1640, 740);
             this.Controls.Add(this.btnReporteventas);
             this.Controls.Add(this.btnborrar);
             this.Controls.Add(this.btnbuscar);
