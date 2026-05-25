@@ -57,7 +57,7 @@
             this.dataGridView1.Location = new System.Drawing.Point(12, 112);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.Size = new System.Drawing.Size(1092, 306);
+            this.dataGridView1.Size = new System.Drawing.Size(1276, 434);
             this.dataGridView1.TabIndex = 22;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -125,7 +125,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1116, 19);
+            this.panel1.Size = new System.Drawing.Size(1300, 19);
             this.panel1.TabIndex = 97;
             // 
             // btnborrar
@@ -135,7 +135,7 @@
             this.btnborrar.ForeColor = System.Drawing.Color.Black;
             this.btnborrar.Image = global::PROYECTO_ESTADIA.Properties.Resources.borrar;
             this.btnborrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnborrar.Location = new System.Drawing.Point(518, 68);
+            this.btnborrar.Location = new System.Drawing.Point(610, 68);
             this.btnborrar.Name = "btnborrar";
             this.btnborrar.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btnborrar.Size = new System.Drawing.Size(160, 31);
@@ -150,7 +150,7 @@
             this.btnbuscar.ForeColor = System.Drawing.Color.Black;
             this.btnbuscar.Image = global::PROYECTO_ESTADIA.Properties.Resources.busqueda;
             this.btnbuscar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnbuscar.Location = new System.Drawing.Point(398, 68);
+            this.btnbuscar.Location = new System.Drawing.Point(490, 68);
             this.btnbuscar.Name = "btnbuscar";
             this.btnbuscar.Padding = new System.Windows.Forms.Padding(2, 0, 0, 0);
             this.btnbuscar.Size = new System.Drawing.Size(130, 31);
@@ -166,7 +166,7 @@
             this.button1.ForeColor = System.Drawing.Color.Black;
             this.button1.Image = global::PROYECTO_ESTADIA.Properties.Resources.agregar_p16;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(804, 39);
+            this.button1.Location = new System.Drawing.Point(988, 39);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(170, 25);
             this.button1.TabIndex = 107;
@@ -178,7 +178,7 @@
             this.textBox3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox3.ForeColor = System.Drawing.Color.Black;
-            this.textBox3.Location = new System.Drawing.Point(243, 41);
+            this.textBox3.Location = new System.Drawing.Point(335, 41);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(550, 24);
             this.textBox3.TabIndex = 106;
@@ -213,7 +213,7 @@
             this.button2.ForeColor = System.Drawing.Color.Black;
             this.button2.Image = global::PROYECTO_ESTADIA.Properties.Resources.ingreso__1_;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(713, 433);
+            this.button2.Location = new System.Drawing.Point(897, 561);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(165, 29);
             this.button2.TabIndex = 111;
@@ -225,7 +225,7 @@
             this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.ForeColor = System.Drawing.Color.Black;
-            this.textBox2.Location = new System.Drawing.Point(889, 418);
+            this.textBox2.Location = new System.Drawing.Point(1073, 546);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(189, 47);
             this.textBox2.TabIndex = 110;
@@ -236,7 +236,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1116, 481);
+            this.ClientSize = new System.Drawing.Size(1300, 609);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.btnborrar);
