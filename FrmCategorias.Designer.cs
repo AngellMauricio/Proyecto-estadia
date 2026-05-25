@@ -44,10 +44,9 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(30, 9);
-            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label10.Location = new System.Drawing.Point(12, 9);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(117, 25);
+            this.label10.Size = new System.Drawing.Size(86, 17);
             this.label10.TabIndex = 0;
             this.label10.Text = "Categorias";
             // 
@@ -55,10 +54,9 @@
             // 
             this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox3.ForeColor = System.Drawing.Color.Black;
-            this.textBox3.Location = new System.Drawing.Point(130, 65);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textBox3.Location = new System.Drawing.Point(87, 42);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(535, 32);
+            this.textBox3.Size = new System.Drawing.Size(358, 24);
             this.textBox3.TabIndex = 102;
             this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
@@ -67,92 +65,93 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Black;
-            this.label7.Location = new System.Drawing.Point(30, 68);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Location = new System.Drawing.Point(20, 44);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(92, 26);
+            this.label7.Size = new System.Drawing.Size(63, 18);
             this.label7.TabIndex = 101;
             this.label7.Text = "Buscar :";
             // 
             // textBox1
             // 
+            this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.Black;
-            this.textBox1.Location = new System.Drawing.Point(1044, 175);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textBox1.Location = new System.Drawing.Point(696, 114);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(448, 32);
+            this.textBox1.Size = new System.Drawing.Size(300, 24);
             this.textBox1.TabIndex = 108;
             // 
             // button2
             // 
+            this.button2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.Black;
             this.button2.Image = global::PROYECTO_ESTADIA.Properties.Resources.disco_flexible;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(1096, 317);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button2.Location = new System.Drawing.Point(731, 206);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(241, 39);
+            this.button2.Size = new System.Drawing.Size(180, 25);
             this.button2.TabIndex = 109;
             this.button2.Text = "Guardar Categoria.";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
+            this.button1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Black;
             this.button1.Image = global::PROYECTO_ESTADIA.Properties.Resources.borrar;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(1276, 65);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button1.Location = new System.Drawing.Point(851, 42);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(146, 46);
+            this.button1.Size = new System.Drawing.Size(110, 30);
             this.button1.TabIndex = 106;
             this.button1.Text = "Eliminar.";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // btnventasdia
             // 
+            this.btnventasdia.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnventasdia.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnventasdia.ForeColor = System.Drawing.Color.Black;
             this.btnventasdia.Image = global::PROYECTO_ESTADIA.Properties.Resources.agregarcategoria;
             this.btnventasdia.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnventasdia.Location = new System.Drawing.Point(987, 65);
-            this.btnventasdia.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnventasdia.Location = new System.Drawing.Point(658, 42);
             this.btnventasdia.Name = "btnventasdia";
-            this.btnventasdia.Size = new System.Drawing.Size(223, 46);
+            this.btnventasdia.Size = new System.Drawing.Size(160, 30);
             this.btnventasdia.TabIndex = 105;
             this.btnventasdia.Text = "Nueva Categoria.";
             this.btnventasdia.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(936, 178);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(624, 116);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(102, 26);
+            this.label1.Size = new System.Drawing.Size(70, 18);
             this.label1.TabIndex = 110;
             this.label1.Text = "Nombre :";
             // 
             // dataGridView1
             // 
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(-1, 105);
+            this.dataGridView1.Location = new System.Drawing.Point(0, 71);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(698, 718);
+            this.dataGridView1.Size = new System.Drawing.Size(352, 409);
             this.dataGridView1.TabIndex = 111;
             // 
             // FrmCategorias
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1946, 835);
+            this.ClientSize = new System.Drawing.Size(1109, 481);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label1);
@@ -163,7 +162,6 @@
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label7);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FrmCategorias";
             this.Text = "FrmCategorias";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
