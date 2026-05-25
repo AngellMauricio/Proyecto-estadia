@@ -51,7 +51,7 @@
             this.pnlcontenedor.Location = new System.Drawing.Point(0, 95);
             this.pnlcontenedor.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnlcontenedor.Name = "pnlcontenedor";
-            this.pnlcontenedor.Size = new System.Drawing.Size(1284, 607);
+            this.pnlcontenedor.Size = new System.Drawing.Size(1623, 607);
             this.pnlcontenedor.TabIndex = 1;
             this.pnlcontenedor.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlcontenedor_Paint);
             // 
@@ -65,7 +65,7 @@
             this.panel1.ForeColor = System.Drawing.Color.AliceBlue;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1284, 90);
+            this.panel1.Size = new System.Drawing.Size(1623, 90);
             this.panel1.TabIndex = 2;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -86,7 +86,7 @@
             this.label1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(107, 18);
+            this.label1.Location = new System.Drawing.Point(276, 18);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(480, 40);
             this.label1.TabIndex = 3;
@@ -109,7 +109,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 51);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1284, 39);
+            this.menuStrip1.Size = new System.Drawing.Size(1623, 39);
             this.menuStrip1.TabIndex = 2;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -164,7 +164,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.ClientSize = new System.Drawing.Size(1284, 701);
+            this.ClientSize = new System.Drawing.Size(1623, 701);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pnlcontenedor);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
