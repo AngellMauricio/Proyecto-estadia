@@ -47,11 +47,13 @@
             // 
             // pnlcontenedor
             // 
+            this.pnlcontenedor.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.pnlcontenedor.BackColor = System.Drawing.Color.White;
             this.pnlcontenedor.Location = new System.Drawing.Point(0, 95);
             this.pnlcontenedor.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnlcontenedor.Name = "pnlcontenedor";
-            this.pnlcontenedor.Size = new System.Drawing.Size(1623, 600);
+            this.pnlcontenedor.Size = new System.Drawing.Size(1623, 609);
             this.pnlcontenedor.TabIndex = 1;
             this.pnlcontenedor.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlcontenedor_Paint);
             // 

@@ -85,7 +85,7 @@
             this.dataGridView1.Location = new System.Drawing.Point(0, 107);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.Size = new System.Drawing.Size(1300, 306);
+            this.dataGridView1.Size = new System.Drawing.Size(1300, 376);
             this.dataGridView1.TabIndex = 65;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -95,7 +95,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.Black;
-            this.textBox1.Location = new System.Drawing.Point(1110, 419);
+            this.textBox1.Location = new System.Drawing.Point(1110, 489);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(190, 47);
             this.textBox1.TabIndex = 71;
@@ -189,7 +189,7 @@
             this.btncobrar.ForeColor = System.Drawing.Color.Black;
             this.btncobrar.Image = global::PROYECTO_ESTADIA.Properties.Resources.ingreso__1_;
             this.btncobrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btncobrar.Location = new System.Drawing.Point(923, 422);
+            this.btncobrar.Location = new System.Drawing.Point(923, 504);
             this.btncobrar.Name = "btncobrar";
             this.btncobrar.Size = new System.Drawing.Size(181, 29);
             this.btncobrar.TabIndex = 72;
@@ -202,7 +202,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1300, 600);
+            this.ClientSize = new System.Drawing.Size(1300, 609);
             this.Controls.Add(this.btnReporteventas);
             this.Controls.Add(this.btnborrar);
             this.Controls.Add(this.btnbuscar);
