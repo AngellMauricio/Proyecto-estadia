@@ -73,5 +73,10 @@ namespace PROYECTO_ESTADIA
         {
 
         }
+
+        private void textBox1_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

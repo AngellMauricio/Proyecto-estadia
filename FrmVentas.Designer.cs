@@ -32,7 +32,6 @@
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.btnReporteventas = new System.Windows.Forms.Button();
@@ -40,6 +39,7 @@
             this.btnbuscar = new System.Windows.Forms.Button();
             this.btnagregarproducto = new System.Windows.Forms.Button();
             this.btncobrar = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -78,29 +78,14 @@
             // 
             // dataGridView1
             // 
-            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 109);
+            this.dataGridView1.Location = new System.Drawing.Point(0, 109);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.Size = new System.Drawing.Size(1276, 376);
+            this.dataGridView1.Size = new System.Drawing.Size(1102, 300);
             this.dataGridView1.TabIndex = 65;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
-            // 
-            // textBox1
-            // 
-            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.Black;
-            this.textBox1.Location = new System.Drawing.Point(1098, 491);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(190, 47);
-            this.textBox1.TabIndex = 71;
-            this.textBox1.Text = "$0.00";
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // panel1
             // 
@@ -109,7 +94,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1300, 19);
+            this.panel1.Size = new System.Drawing.Size(1109, 19);
             this.panel1.TabIndex = 73;
             // 
             // label2
@@ -129,7 +114,7 @@
             this.btnReporteventas.ForeColor = System.Drawing.Color.Black;
             this.btnReporteventas.Image = global::PROYECTO_ESTADIA.Properties.Resources.beneficio_financiero;
             this.btnReporteventas.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnReporteventas.Location = new System.Drawing.Point(610, 73);
+            this.btnReporteventas.Location = new System.Drawing.Point(628, 72);
             this.btnReporteventas.Name = "btnReporteventas";
             this.btnReporteventas.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
             this.btnReporteventas.Size = new System.Drawing.Size(180, 31);
@@ -159,7 +144,7 @@
             this.btnbuscar.ForeColor = System.Drawing.Color.Black;
             this.btnbuscar.Image = global::PROYECTO_ESTADIA.Properties.Resources.busqueda;
             this.btnbuscar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnbuscar.Location = new System.Drawing.Point(343, 72);
+            this.btnbuscar.Location = new System.Drawing.Point(312, 72);
             this.btnbuscar.Name = "btnbuscar";
             this.btnbuscar.Padding = new System.Windows.Forms.Padding(2, 0, 0, 0);
             this.btnbuscar.Size = new System.Drawing.Size(135, 31);
@@ -189,27 +174,37 @@
             this.btncobrar.ForeColor = System.Drawing.Color.Black;
             this.btncobrar.Image = global::PROYECTO_ESTADIA.Properties.Resources.ingreso__1_;
             this.btncobrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btncobrar.Location = new System.Drawing.Point(877, 504);
+            this.btncobrar.Location = new System.Drawing.Point(685, 415);
             this.btncobrar.Name = "btncobrar";
             this.btncobrar.Size = new System.Drawing.Size(181, 29);
-            this.btncobrar.TabIndex = 72;
+            this.btncobrar.TabIndex = 80;
             this.btncobrar.Text = "F12 Cobrar.";
             this.btncobrar.UseVisualStyleBackColor = true;
-            this.btncobrar.Click += new System.EventHandler(this.btncobrar_Click);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.ForeColor = System.Drawing.Color.Black;
+            this.textBox1.Location = new System.Drawing.Point(872, 411);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(230, 47);
+            this.textBox1.TabIndex = 79;
+            this.textBox1.Text = "$0.00";
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
             // 
             // FrmVentas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1300, 609);
+            this.ClientSize = new System.Drawing.Size(1109, 609);
+            this.Controls.Add(this.btncobrar);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.btnReporteventas);
             this.Controls.Add(this.btnborrar);
             this.Controls.Add(this.btnbuscar);
             this.Controls.Add(this.btnagregarproducto);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.btncobrar);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.dataGridView1);
@@ -217,7 +212,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FrmVentas";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmVentas";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.FrmVentas_Load);
@@ -234,13 +229,13 @@
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button btncobrar;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnagregarproducto;
         private System.Windows.Forms.Button btnbuscar;
         private System.Windows.Forms.Button btnborrar;
         private System.Windows.Forms.Button btnReporteventas;
+        private System.Windows.Forms.Button btncobrar;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
