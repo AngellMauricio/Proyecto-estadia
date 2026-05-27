@@ -45,19 +45,19 @@
             this.panel2.Controls.Add(this.menuStrip1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel2.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1946, 75);
+            this.panel2.Size = new System.Drawing.Size(2378, 90);
             this.panel2.TabIndex = 79;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(23, 0);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(28, 0);
+            this.label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(117, 26);
+            this.label2.Size = new System.Drawing.Size(134, 30);
             this.label2.TabIndex = 0;
             this.label2.Text = "Inventario";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -71,9 +71,10 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.nuevoToolStripMenuItem,
             this.eDITARToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 35);
+            this.menuStrip1.Location = new System.Drawing.Point(0, 44);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1946, 40);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(7, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(2378, 46);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -82,7 +83,7 @@
             this.nuevoToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nuevoToolStripMenuItem.Image = global::PROYECTO_ESTADIA.Properties.Resources.disminucion;
             this.nuevoToolStripMenuItem.Name = "nuevoToolStripMenuItem";
-            this.nuevoToolStripMenuItem.Size = new System.Drawing.Size(371, 36);
+            this.nuevoToolStripMenuItem.Size = new System.Drawing.Size(426, 42);
             this.nuevoToolStripMenuItem.Text = "Productos bajos en inventario";
             this.nuevoToolStripMenuItem.Click += new System.EventHandler(this.nuevoToolStripMenuItem_Click);
             // 
@@ -91,28 +92,29 @@
             this.eDITARToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.eDITARToolStripMenuItem.Image = global::PROYECTO_ESTADIA.Properties.Resources.editar;
             this.eDITARToolStripMenuItem.Name = "eDITARToolStripMenuItem";
-            this.eDITARToolStripMenuItem.Size = new System.Drawing.Size(285, 36);
+            this.eDITARToolStripMenuItem.Size = new System.Drawing.Size(326, 42);
             this.eDITARToolStripMenuItem.Text = "Reporte de Inventario";
             this.eDITARToolStripMenuItem.Click += new System.EventHandler(this.eDITARToolStripMenuItem_Click);
             // 
             // pnlinventario
             // 
             this.pnlinventario.BackColor = System.Drawing.Color.White;
-            this.pnlinventario.Location = new System.Drawing.Point(0, 80);
-            this.pnlinventario.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pnlinventario.Location = new System.Drawing.Point(0, 96);
+            this.pnlinventario.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.pnlinventario.MinimumSize = new System.Drawing.Size(1024, 720);
             this.pnlinventario.Name = "pnlinventario";
-            this.pnlinventario.Size = new System.Drawing.Size(2805, 1012);
+            this.pnlinventario.Size = new System.Drawing.Size(3428, 1214);
             this.pnlinventario.TabIndex = 80;
             // 
             // FrmInventario
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1946, 1106);
+            this.ClientSize = new System.Drawing.Size(2378, 1327);
             this.Controls.Add(this.pnlinventario);
             this.Controls.Add(this.panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.Name = "FrmInventario";
             this.Text = "FrmInventario";
             this.Load += new System.EventHandler(this.FrmInventario_Load);
