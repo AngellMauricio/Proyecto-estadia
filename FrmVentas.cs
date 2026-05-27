@@ -78,5 +78,25 @@ namespace PROYECTO_ESTADIA
         {
 
         }
+
+        private void btnReporteventas_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pnlinferior_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged_2(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -47,8 +47,6 @@
             // 
             // pnlcontenedor
             // 
-            this.pnlcontenedor.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
             this.pnlcontenedor.BackColor = System.Drawing.Color.White;
             this.pnlcontenedor.Location = new System.Drawing.Point(0, 95);
             this.pnlcontenedor.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -90,7 +88,7 @@
             this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(107, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(328, 29);
+            this.label1.Size = new System.Drawing.Size(480, 40);
             this.label1.TabIndex = 3;
             this.label1.Text = "Sistema de Punto de Venta";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -99,6 +97,7 @@
             // 
             this.menuStrip1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.menuStrip1.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ventaToolStripMenuItem,
@@ -107,23 +106,23 @@
             this.compraToolStripMenuItem,
             this.inventarioToolStripMenuItem,
             this.agregraToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 61);
+            this.menuStrip1.Location = new System.Drawing.Point(0, 51);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1284, 29);
+            this.menuStrip1.Size = new System.Drawing.Size(1284, 39);
             this.menuStrip1.TabIndex = 2;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // ventaToolStripMenuItem
             // 
             this.ventaToolStripMenuItem.Name = "ventaToolStripMenuItem";
-            this.ventaToolStripMenuItem.Size = new System.Drawing.Size(12, 25);
+            this.ventaToolStripMenuItem.Size = new System.Drawing.Size(16, 35);
             // 
             // ventasToolStripMenuItem
             // 
             this.ventasToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("ventasToolStripMenuItem.Image")));
             this.ventasToolStripMenuItem.Name = "ventasToolStripMenuItem";
-            this.ventasToolStripMenuItem.Size = new System.Drawing.Size(94, 25);
+            this.ventasToolStripMenuItem.Size = new System.Drawing.Size(128, 35);
             this.ventasToolStripMenuItem.Text = "Ventas";
             this.ventasToolStripMenuItem.Click += new System.EventHandler(this.ventasToolStripMenuItem_Click);
             // 
@@ -131,7 +130,7 @@
             // 
             this.agregarProductoToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("agregarProductoToolStripMenuItem.Image")));
             this.agregarProductoToolStripMenuItem.Name = "agregarProductoToolStripMenuItem";
-            this.agregarProductoToolStripMenuItem.Size = new System.Drawing.Size(119, 25);
+            this.agregarProductoToolStripMenuItem.Size = new System.Drawing.Size(166, 35);
             this.agregarProductoToolStripMenuItem.Text = "Productos";
             this.agregarProductoToolStripMenuItem.Click += new System.EventHandler(this.agregarProductoToolStripMenuItem_Click);
             // 
@@ -140,7 +139,7 @@
             this.compraToolStripMenuItem.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.compraToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("compraToolStripMenuItem.Image")));
             this.compraToolStripMenuItem.Name = "compraToolStripMenuItem";
-            this.compraToolStripMenuItem.Size = new System.Drawing.Size(110, 25);
+            this.compraToolStripMenuItem.Size = new System.Drawing.Size(151, 35);
             this.compraToolStripMenuItem.Text = "Compras";
             this.compraToolStripMenuItem.Click += new System.EventHandler(this.compraToolStripMenuItem_Click);
             // 
@@ -148,7 +147,7 @@
             // 
             this.inventarioToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("inventarioToolStripMenuItem.Image")));
             this.inventarioToolStripMenuItem.Name = "inventarioToolStripMenuItem";
-            this.inventarioToolStripMenuItem.Size = new System.Drawing.Size(119, 25);
+            this.inventarioToolStripMenuItem.Size = new System.Drawing.Size(166, 35);
             this.inventarioToolStripMenuItem.Text = "Inventario";
             this.inventarioToolStripMenuItem.Click += new System.EventHandler(this.inventarioToolStripMenuItem_Click);
             // 
@@ -156,13 +155,13 @@
             // 
             this.agregraToolStripMenuItem.Image = global::PROYECTO_ESTADIA.Properties.Resources.configuraciones;
             this.agregraToolStripMenuItem.Name = "agregraToolStripMenuItem";
-            this.agregraToolStripMenuItem.Size = new System.Drawing.Size(166, 25);
+            this.agregraToolStripMenuItem.Size = new System.Drawing.Size(235, 35);
             this.agregraToolStripMenuItem.Text = "Configuraciones";
             this.agregraToolStripMenuItem.Click += new System.EventHandler(this.agregraToolStripMenuItem_Click);
             // 
             // FrmPrincipal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ClientSize = new System.Drawing.Size(1284, 701);

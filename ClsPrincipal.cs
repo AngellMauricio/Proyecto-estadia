@@ -36,7 +36,7 @@ namespace PROYECTO_ESTADIA
 
             formulario.Show();
         }
-
+    
 
     }
 }
