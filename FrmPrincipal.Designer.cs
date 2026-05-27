@@ -48,12 +48,14 @@
             // pnlcontenedor
             // 
             this.pnlcontenedor.BackColor = System.Drawing.Color.White;
+            this.pnlcontenedor.Dock = System.Windows.Forms.DockStyle.Fill; // <--- ¡AÑADE ESTA LÍNEA!
             this.pnlcontenedor.Location = new System.Drawing.Point(0, 95);
             this.pnlcontenedor.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnlcontenedor.Name = "pnlcontenedor";
             this.pnlcontenedor.Size = new System.Drawing.Size(1284, 609);
             this.pnlcontenedor.TabIndex = 1;
             this.pnlcontenedor.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlcontenedor_Paint);
+
             // 
             // menuStrip1
             // 
@@ -165,8 +167,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ClientSize = new System.Drawing.Size(1284, 701);
-            this.Controls.Add(this.panel1);
             this.Controls.Add(this.pnlcontenedor);
+            this.Controls.Add(this.panel1);
+            
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
