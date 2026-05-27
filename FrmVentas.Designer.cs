@@ -30,16 +30,16 @@
         {
             this.label3 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.btnagregarproducto = new System.Windows.Forms.Button();
             this.btnReporteventas = new System.Windows.Forms.Button();
             this.btnborrar = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
             this.btnbuscar = new System.Windows.Forms.Button();
-            this.label7 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.btncobrar = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label10 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.btnagregarproducto = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -66,21 +66,6 @@
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.Size = new System.Drawing.Size(927, 240);
             this.dataGridView1.TabIndex = 116;
-            // 
-            // btnagregarproducto
-            // 
-            this.btnagregarproducto.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnagregarproducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnagregarproducto.ForeColor = System.Drawing.Color.Black;
-            this.btnagregarproducto.Image = global::PROYECTO_ESTADIA.Properties.Resources.agregar_p16;
-            this.btnagregarproducto.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnagregarproducto.Location = new System.Drawing.Point(688, 43);
-            this.btnagregarproducto.Margin = new System.Windows.Forms.Padding(1);
-            this.btnagregarproducto.Name = "btnagregarproducto";
-            this.btnagregarproducto.Size = new System.Drawing.Size(151, 20);
-            this.btnagregarproducto.TabIndex = 122;
-            this.btnagregarproducto.Text = "ENTER - Agr. Prod\r\n";
-            this.btnagregarproducto.UseVisualStyleBackColor = true;
             // 
             // btnReporteventas
             // 
@@ -114,16 +99,6 @@
             this.btnborrar.Text = "DEL Borrar Art.";
             this.btnborrar.UseVisualStyleBackColor = true;
             // 
-            // textBox3
-            // 
-            this.textBox3.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.ForeColor = System.Drawing.Color.Black;
-            this.textBox3.Location = new System.Drawing.Point(261, 43);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(411, 20);
-            this.textBox3.TabIndex = 118;
-            // 
             // btnbuscar
             // 
             this.btnbuscar.Anchor = System.Windows.Forms.AnchorStyles.Top;
@@ -140,18 +115,6 @@
             this.btnbuscar.Tag = "  ";
             this.btnbuscar.Text = "   F10 Buscar.";
             this.btnbuscar.UseVisualStyleBackColor = true;
-            // 
-            // label7
-            // 
-            this.label7.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.Black;
-            this.label7.Location = new System.Drawing.Point(147, 46);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(108, 13);
-            this.label7.TabIndex = 117;
-            this.label7.Text = "Codigo del producto :";
             // 
             // textBox1
             // 
@@ -198,6 +161,43 @@
             this.label10.TabIndex = 0;
             this.label10.Text = "Compra de Productos";
             // 
+            // label7
+            // 
+            this.label7.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.Black;
+            this.label7.Location = new System.Drawing.Point(147, 46);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(108, 13);
+            this.label7.TabIndex = 117;
+            this.label7.Text = "Codigo del producto :";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.ForeColor = System.Drawing.Color.Black;
+            this.textBox3.Location = new System.Drawing.Point(261, 43);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(411, 20);
+            this.textBox3.TabIndex = 118;
+            // 
+            // btnagregarproducto
+            // 
+            this.btnagregarproducto.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.btnagregarproducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnagregarproducto.ForeColor = System.Drawing.Color.Black;
+            this.btnagregarproducto.Image = global::PROYECTO_ESTADIA.Properties.Resources.agregar_p16;
+            this.btnagregarproducto.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnagregarproducto.Location = new System.Drawing.Point(676, 43);
+            this.btnagregarproducto.Margin = new System.Windows.Forms.Padding(1);
+            this.btnagregarproducto.Name = "btnagregarproducto";
+            this.btnagregarproducto.Size = new System.Drawing.Size(157, 20);
+            this.btnagregarproducto.TabIndex = 122;
+            this.btnagregarproducto.Text = "ENTER - Agr. Prod\r\n";
+            this.btnagregarproducto.UseVisualStyleBackColor = true;
+            // 
             // FrmVentas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
@@ -233,15 +233,15 @@
         #endregion
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button btnagregarproducto;
         private System.Windows.Forms.Button btnReporteventas;
         private System.Windows.Forms.Button btnborrar;
-        private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Button btnbuscar;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button btncobrar;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Button btnagregarproducto;
     }
 }

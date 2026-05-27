@@ -33,12 +33,12 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnborrar = new System.Windows.Forms.Button();
             this.btnbuscar = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.btnagregarproducto = new System.Windows.Forms.Button();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -50,10 +50,10 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 162);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 136);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.Size = new System.Drawing.Size(904, 237);
+            this.dataGridView1.Size = new System.Drawing.Size(904, 263);
             this.dataGridView1.TabIndex = 22;
             // 
             // label10
@@ -78,14 +78,13 @@
             // 
             // btnborrar
             // 
-            this.btnborrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnborrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnborrar.ForeColor = System.Drawing.Color.Black;
             this.btnborrar.Image = global::PROYECTO_ESTADIA.Properties.Resources.borrar;
             this.btnborrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnborrar.Location = new System.Drawing.Point(487, 75);
+            this.btnborrar.Margin = new System.Windows.Forms.Padding(1);
             this.btnborrar.Name = "btnborrar";
-            this.btnborrar.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btnborrar.Size = new System.Drawing.Size(133, 20);
             this.btnborrar.TabIndex = 109;
             this.btnborrar.Text = "DEL Borrar Art.";
@@ -93,51 +92,18 @@
             // 
             // btnbuscar
             // 
+            this.btnbuscar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnbuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnbuscar.ForeColor = System.Drawing.Color.Black;
             this.btnbuscar.Image = global::PROYECTO_ESTADIA.Properties.Resources.busqueda;
             this.btnbuscar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnbuscar.Location = new System.Drawing.Point(334, 75);
+            this.btnbuscar.Margin = new System.Windows.Forms.Padding(1);
             this.btnbuscar.Name = "btnbuscar";
             this.btnbuscar.Size = new System.Drawing.Size(133, 20);
             this.btnbuscar.TabIndex = 108;
             this.btnbuscar.Text = "   F10 Buscar.";
             this.btnbuscar.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Image = global::PROYECTO_ESTADIA.Properties.Resources.agregar_p16;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(687, 44);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(170, 25);
-            this.button1.TabIndex = 107;
-            this.button1.Text = "ENTER - Agr. Prod\r\n";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.ForeColor = System.Drawing.Color.Black;
-            this.textBox3.Location = new System.Drawing.Point(292, 45);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(389, 20);
-            this.textBox3.TabIndex = 106;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.Black;
-            this.label7.Location = new System.Drawing.Point(178, 50);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(108, 13);
-            this.label7.TabIndex = 105;
-            this.label7.Text = "Codigo del producto :";
             // 
             // label3
             // 
@@ -172,17 +138,54 @@
             this.textBox2.TabIndex = 110;
             this.textBox2.Text = "$0.00";
             // 
+            // btnagregarproducto
+            // 
+            this.btnagregarproducto.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.btnagregarproducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnagregarproducto.ForeColor = System.Drawing.Color.Black;
+            this.btnagregarproducto.Image = global::PROYECTO_ESTADIA.Properties.Resources.agregar_p16;
+            this.btnagregarproducto.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnagregarproducto.Location = new System.Drawing.Point(680, 51);
+            this.btnagregarproducto.Margin = new System.Windows.Forms.Padding(1);
+            this.btnagregarproducto.Name = "btnagregarproducto";
+            this.btnagregarproducto.Size = new System.Drawing.Size(151, 20);
+            this.btnagregarproducto.TabIndex = 125;
+            this.btnagregarproducto.Text = "ENTER - Agr. Prod\r\n";
+            this.btnagregarproducto.UseVisualStyleBackColor = true;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.ForeColor = System.Drawing.Color.Black;
+            this.textBox3.Location = new System.Drawing.Point(265, 51);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(411, 20);
+            this.textBox3.TabIndex = 124;
+            // 
+            // label7
+            // 
+            this.label7.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.Black;
+            this.label7.Location = new System.Drawing.Point(151, 54);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(108, 13);
+            this.label7.TabIndex = 123;
+            this.label7.Text = "Codigo del producto :";
+            // 
             // FrmCompra
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(928, 496);
-            this.Controls.Add(this.btnborrar);
-            this.Controls.Add(this.btnbuscar);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnagregarproducto);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label7);
+            this.Controls.Add(this.btnborrar);
+            this.Controls.Add(this.btnbuscar);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label3);
@@ -208,11 +211,11 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnborrar;
         private System.Windows.Forms.Button btnbuscar;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Button btnagregarproducto;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label label7;
     }
 }
