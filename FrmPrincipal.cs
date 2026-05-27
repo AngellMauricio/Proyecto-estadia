@@ -32,8 +32,12 @@ namespace PROYECTO_ESTADIA
 
         private void compraToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            FrmCompra frmCompras = new FrmCompra();
+            frmCompras.FormBorderStyle = FormBorderStyle.None;
+            frmCompras.Dock = DockStyle.Fill;
             principal = new ClsPrincipal();
             principal.agregaralcontenedor(new FrmCompra(), pnlcontenedor);
+
         }
 
         private void inventarioToolStripMenuItem_Click(object sender, EventArgs e)
