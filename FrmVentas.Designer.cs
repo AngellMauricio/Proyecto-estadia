@@ -59,12 +59,12 @@
             this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.DarkGray;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(3, 116);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 116);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.Size = new System.Drawing.Size(927, 240);
+            this.dataGridView1.Size = new System.Drawing.Size(909, 240);
             this.dataGridView1.TabIndex = 116;
             // 
             // btnReporteventas
@@ -121,7 +121,7 @@
             this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 28F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.Black;
-            this.textBox1.Location = new System.Drawing.Point(797, 362);
+            this.textBox1.Location = new System.Drawing.Point(788, 362);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(133, 50);
             this.textBox1.TabIndex = 124;
@@ -134,12 +134,13 @@
             this.btncobrar.ForeColor = System.Drawing.Color.Black;
             this.btncobrar.Image = global::PROYECTO_ESTADIA.Properties.Resources.ingreso__1_;
             this.btncobrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btncobrar.Location = new System.Drawing.Point(611, 370);
+            this.btncobrar.Location = new System.Drawing.Point(601, 380);
             this.btncobrar.Name = "btncobrar";
             this.btncobrar.Size = new System.Drawing.Size(181, 29);
             this.btncobrar.TabIndex = 123;
             this.btncobrar.Text = "F12 Cobrar.";
             this.btncobrar.UseVisualStyleBackColor = true;
+            this.btncobrar.Click += new System.EventHandler(this.btncobrar_Click);
             // 
             // panel1
             // 
@@ -157,9 +158,9 @@
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(9, 3);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(164, 17);
+            this.label10.Size = new System.Drawing.Size(55, 17);
             this.label10.TabIndex = 0;
-            this.label10.Text = "Compra de Productos";
+            this.label10.Text = "Venta ";
             // 
             // label7
             // 
@@ -221,7 +222,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmVentas";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.Load += new System.EventHandler(this.FrmVentas_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

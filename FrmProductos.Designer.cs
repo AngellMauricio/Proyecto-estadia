@@ -48,14 +48,15 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(952, 49);
+            this.panel1.Size = new System.Drawing.Size(952, 40);
             this.panel1.TabIndex = 74;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Dock = System.Windows.Forms.DockStyle.Top;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(9, 0);
+            this.label2.Location = new System.Drawing.Point(0, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(81, 17);
             this.label2.TabIndex = 0;
@@ -64,26 +65,26 @@
             // menuStrip1
             // 
             this.menuStrip1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.menuStrip1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.menuStrip1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.nuevoToolStripMenuItem,
             this.eDITARToolStripMenuItem,
             this.eliminarToolStripMenuItem,
             this.categoriasToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 18);
+            this.menuStrip1.Location = new System.Drawing.Point(0, 10);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 1, 0, 1);
-            this.menuStrip1.Size = new System.Drawing.Size(952, 31);
+            this.menuStrip1.Size = new System.Drawing.Size(952, 30);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // nuevoToolStripMenuItem
             // 
-            this.nuevoToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nuevoToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nuevoToolStripMenuItem.Image = global::PROYECTO_ESTADIA.Properties.Resources.agregar_producto;
             this.nuevoToolStripMenuItem.Name = "nuevoToolStripMenuItem";
-            this.nuevoToolStripMenuItem.Size = new System.Drawing.Size(103, 29);
+            this.nuevoToolStripMenuItem.Size = new System.Drawing.Size(82, 28);
             this.nuevoToolStripMenuItem.Text = "Nuevo";
             this.nuevoToolStripMenuItem.Click += new System.EventHandler(this.nuevoToolStripMenuItem_Click);
             // 
@@ -113,13 +114,11 @@
             // 
             // pnlproductos
             // 
-            this.pnlproductos.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.pnlproductos.BackColor = System.Drawing.Color.White;
-            this.pnlproductos.Location = new System.Drawing.Point(9, 52);
+            this.pnlproductos.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlproductos.Location = new System.Drawing.Point(0, 40);
             this.pnlproductos.Name = "pnlproductos";
-            this.pnlproductos.Size = new System.Drawing.Size(931, 426);
+            this.pnlproductos.Size = new System.Drawing.Size(952, 441);
             this.pnlproductos.TabIndex = 75;
             // 
             // FrmProductos

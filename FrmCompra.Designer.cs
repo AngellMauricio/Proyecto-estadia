@@ -50,10 +50,10 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 136);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 128);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.Size = new System.Drawing.Size(904, 263);
+            this.dataGridView1.Size = new System.Drawing.Size(909, 220);
             this.dataGridView1.TabIndex = 22;
             // 
             // label10
@@ -73,7 +73,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(928, 19);
+            this.panel1.Size = new System.Drawing.Size(933, 23);
             this.panel1.TabIndex = 97;
             // 
             // btnborrar
@@ -97,7 +97,7 @@
             this.btnbuscar.ForeColor = System.Drawing.Color.Black;
             this.btnbuscar.Image = global::PROYECTO_ESTADIA.Properties.Resources.busqueda;
             this.btnbuscar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnbuscar.Location = new System.Drawing.Point(334, 75);
+            this.btnbuscar.Location = new System.Drawing.Point(339, 75);
             this.btnbuscar.Margin = new System.Windows.Forms.Padding(1);
             this.btnbuscar.Name = "btnbuscar";
             this.btnbuscar.Size = new System.Drawing.Size(133, 20);
@@ -120,7 +120,7 @@
             this.button2.ForeColor = System.Drawing.Color.Black;
             this.button2.Image = global::PROYECTO_ESTADIA.Properties.Resources.ingreso__1_;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(556, 420);
+            this.button2.Location = new System.Drawing.Point(561, 369);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(165, 29);
             this.button2.TabIndex = 111;
@@ -132,7 +132,7 @@
             this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.ForeColor = System.Drawing.Color.Black;
-            this.textBox2.Location = new System.Drawing.Point(727, 405);
+            this.textBox2.Location = new System.Drawing.Point(732, 354);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(189, 47);
             this.textBox2.TabIndex = 110;
@@ -145,7 +145,7 @@
             this.btnagregarproducto.ForeColor = System.Drawing.Color.Black;
             this.btnagregarproducto.Image = global::PROYECTO_ESTADIA.Properties.Resources.agregar_p16;
             this.btnagregarproducto.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnagregarproducto.Location = new System.Drawing.Point(680, 51);
+            this.btnagregarproducto.Location = new System.Drawing.Point(682, 51);
             this.btnagregarproducto.Margin = new System.Windows.Forms.Padding(1);
             this.btnagregarproducto.Name = "btnagregarproducto";
             this.btnagregarproducto.Size = new System.Drawing.Size(151, 20);
@@ -158,7 +158,7 @@
             this.textBox3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox3.ForeColor = System.Drawing.Color.Black;
-            this.textBox3.Location = new System.Drawing.Point(265, 51);
+            this.textBox3.Location = new System.Drawing.Point(267, 51);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(411, 20);
             this.textBox3.TabIndex = 124;
@@ -169,7 +169,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Black;
-            this.label7.Location = new System.Drawing.Point(151, 54);
+            this.label7.Location = new System.Drawing.Point(153, 54);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(108, 13);
             this.label7.TabIndex = 123;
@@ -180,7 +180,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(928, 496);
+            this.ClientSize = new System.Drawing.Size(933, 430);
             this.Controls.Add(this.btnagregarproducto);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label7);
