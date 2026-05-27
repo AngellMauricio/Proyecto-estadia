@@ -30,10 +30,6 @@
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label10 = new System.Windows.Forms.Label();
-            this.btnagregarproducto = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.btncobrar = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnborrar = new System.Windows.Forms.Button();
             this.btnbuscar = new System.Windows.Forms.Button();
@@ -47,19 +43,15 @@
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // panel1
             // 
-            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 112);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.Size = new System.Drawing.Size(1276, 434);
-            this.dataGridView1.TabIndex = 22;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            this.panel1.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.panel1.Controls.Add(this.label10);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1300, 19);
+            this.panel1.TabIndex = 97;
             // 
             // label10
             // 
@@ -71,93 +63,27 @@
             this.label10.TabIndex = 0;
             this.label10.Text = "Compra de Productos";
             // 
-            // btnagregarproducto
+            // label7
             // 
-            this.btnagregarproducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnagregarproducto.ForeColor = System.Drawing.Color.Black;
-            this.btnagregarproducto.Image = global::PROYECTO_ESTADIA.Properties.Resources.agregar_p16;
-            this.btnagregarproducto.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnagregarproducto.Location = new System.Drawing.Point(1346, 41);
-            this.btnagregarproducto.Name = "btnagregarproducto";
-            this.btnagregarproducto.Size = new System.Drawing.Size(296, 31);
-            this.btnagregarproducto.TabIndex = 101;
-            this.btnagregarproducto.Text = "ENTER - Agregar Producto";
-            this.btnagregarproducto.UseVisualStyleBackColor = true;
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.Black;
+            this.label7.Location = new System.Drawing.Point(93, 43);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(150, 18);
+            this.label7.TabIndex = 105;
+            this.label7.Text = "Codigo del producto :";
             // 
-            // label1
+            // textBox3
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(893, 41);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 31);
-            this.label1.TabIndex = 98;
-            // 
-            // btncobrar
-            // 
-            this.btncobrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btncobrar.ForeColor = System.Drawing.Color.Black;
-            this.btncobrar.Image = global::PROYECTO_ESTADIA.Properties.Resources.ingreso__1_;
-            this.btncobrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btncobrar.Location = new System.Drawing.Point(1184, 630);
-            this.btncobrar.Name = "btncobrar";
-            this.btncobrar.Size = new System.Drawing.Size(263, 50);
-            this.btncobrar.TabIndex = 103;
-            this.btncobrar.Text = "F12 Comprar.";
-            this.btncobrar.UseVisualStyleBackColor = true;
-            this.btncobrar.Click += new System.EventHandler(this.btncobrar_Click);
-            // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.Black;
-            this.textBox1.Location = new System.Drawing.Point(1453, 615);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(189, 80);
-            this.textBox1.TabIndex = 102;
-            this.textBox1.Text = "$0.00";
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.panel1.Controls.Add(this.label10);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1300, 19);
-            this.panel1.TabIndex = 97;
-            // 
-            // btnborrar
-            // 
-            this.btnborrar.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btnborrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnborrar.ForeColor = System.Drawing.Color.Black;
-            this.btnborrar.Image = global::PROYECTO_ESTADIA.Properties.Resources.borrar;
-            this.btnborrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnborrar.Location = new System.Drawing.Point(610, 68);
-            this.btnborrar.Name = "btnborrar";
-            this.btnborrar.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnborrar.Size = new System.Drawing.Size(160, 31);
-            this.btnborrar.TabIndex = 109;
-            this.btnborrar.Text = "DEL Borrar Art.";
-            this.btnborrar.UseVisualStyleBackColor = true;
-            // 
-            // btnbuscar
-            // 
-            this.btnbuscar.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btnbuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnbuscar.ForeColor = System.Drawing.Color.Black;
-            this.btnbuscar.Image = global::PROYECTO_ESTADIA.Properties.Resources.busqueda;
-            this.btnbuscar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnbuscar.Location = new System.Drawing.Point(490, 68);
-            this.btnbuscar.Name = "btnbuscar";
-            this.btnbuscar.Padding = new System.Windows.Forms.Padding(2, 0, 0, 0);
-            this.btnbuscar.Size = new System.Drawing.Size(130, 31);
-            this.btnbuscar.TabIndex = 108;
-            this.btnbuscar.Tag = "  ";
-            this.btnbuscar.Text = "   F10 Buscar.";
-            this.btnbuscar.UseVisualStyleBackColor = true;
+            this.textBox3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.ForeColor = System.Drawing.Color.Black;
+            this.textBox3.Location = new System.Drawing.Point(249, 41);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(720, 24);
+            this.textBox3.TabIndex = 106;
             // 
             // button1
             // 
@@ -173,38 +99,46 @@
             this.button1.Text = "ENTER - Agr. Prod\r\n";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // textBox3
+            // btnbuscar
             // 
-            this.textBox3.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.ForeColor = System.Drawing.Color.Black;
-            this.textBox3.Location = new System.Drawing.Point(335, 41);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(550, 24);
-            this.textBox3.TabIndex = 106;
+            this.btnbuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnbuscar.ForeColor = System.Drawing.Color.Black;
+            this.btnbuscar.Image = global::PROYECTO_ESTADIA.Properties.Resources.busqueda;
+            this.btnbuscar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnbuscar.Location = new System.Drawing.Point(249, 75);
+            this.btnbuscar.Name = "btnbuscar";
+            this.btnbuscar.Padding = new System.Windows.Forms.Padding(2, 0, 0, 0);
+            this.btnbuscar.Size = new System.Drawing.Size(130, 31);
+            this.btnbuscar.TabIndex = 108;
+            this.btnbuscar.Text = "   F10 Buscar.";
+            this.btnbuscar.UseVisualStyleBackColor = true;
             // 
-            // label7
+            // btnborrar
             // 
-            this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.btnborrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnborrar.ForeColor = System.Drawing.Color.Black;
+            this.btnborrar.Image = global::PROYECTO_ESTADIA.Properties.Resources.borrar;
+            this.btnborrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnborrar.Location = new System.Drawing.Point(395, 75);
+            this.btnborrar.Name = "btnborrar";
+            this.btnborrar.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnborrar.Size = new System.Drawing.Size(160, 31);
+            this.btnborrar.TabIndex = 109;
+            this.btnborrar.Text = "DEL Borrar Art.";
+            this.btnborrar.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.Black;
-            this.label7.Location = new System.Drawing.Point(93, 43);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(150, 18);
-            this.label7.TabIndex = 105;
-            this.label7.Text = "Codigo del producto :";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(788, 39);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(0, 20);
-            this.label3.TabIndex = 104;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(12, 120);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 62;
+            this.dataGridView1.Size = new System.Drawing.Size(1276, 410);
+            this.dataGridView1.TabIndex = 22;
             // 
             // button2
             // 
@@ -213,7 +147,7 @@
             this.button2.ForeColor = System.Drawing.Color.Black;
             this.button2.Image = global::PROYECTO_ESTADIA.Properties.Resources.ingreso__1_;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(897, 561);
+            this.button2.Location = new System.Drawing.Point(897, 546);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(165, 29);
             this.button2.TabIndex = 111;
@@ -225,11 +159,19 @@
             this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.ForeColor = System.Drawing.Color.Black;
-            this.textBox2.Location = new System.Drawing.Point(1073, 546);
+            this.textBox2.Location = new System.Drawing.Point(1073, 538);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(189, 47);
             this.textBox2.TabIndex = 110;
             this.textBox2.Text = "$0.00";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(0, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(0, 13);
+            this.label3.TabIndex = 104;
             // 
             // FrmCompra
             // 
@@ -245,14 +187,10 @@
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.btncobrar);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.btnagregarproducto);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.dataGridView1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FrmCompra";
             this.StartPosition = System.Windows.Forms.FormStartPosition.WindowsDefaultBounds;
             this.Text = "Modulo de Compras";
@@ -262,16 +200,11 @@
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
-
         }
 
         #endregion
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Button btnagregarproducto;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button btncobrar;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnborrar;
         private System.Windows.Forms.Button btnbuscar;
