@@ -153,6 +153,16 @@ namespace PROYECTO_ESTADIA.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap candado {
+            get {
+                object obj = ResourceManager.GetObject("candado", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap carrito_de_compras {
             get {
                 object obj = ResourceManager.GetObject("carrito-de-compras", resourceCulture);
@@ -176,6 +186,16 @@ namespace PROYECTO_ESTADIA.Properties {
         internal static System.Drawing.Bitmap configuraciones {
             get {
                 object obj = ResourceManager.GetObject("configuraciones", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap correo {
+            get {
+                object obj = ResourceManager.GetObject("correo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -233,6 +253,16 @@ namespace PROYECTO_ESTADIA.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap informacion_personal {
+            get {
+                object obj = ResourceManager.GetObject("informacion_personal", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ingreso__1_ {
             get {
                 object obj = ResourceManager.GetObject("ingreso__1_", resourceCulture);
@@ -246,6 +276,16 @@ namespace PROYECTO_ESTADIA.Properties {
         internal static System.Drawing.Bitmap inventario {
             get {
                 object obj = ResourceManager.GetObject("inventario", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ojo {
+            get {
+                object obj = ResourceManager.GetObject("ojo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

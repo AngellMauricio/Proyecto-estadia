@@ -83,6 +83,12 @@
     <Compile Include="FrmEliminarproductos.Designer.cs">
       <DependentUpon>FrmEliminarproductos.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmModificarproductos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -174,6 +180,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmEliminarproductos.resx">
       <DependentUpon>FrmEliminarproductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmModificarproductos.resx">
       <DependentUpon>FrmModificarproductos.cs</DependentUpon>
@@ -308,6 +317,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\boton-editar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avatar-de-usuario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\informacion-personal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avatar %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clave.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\contrasena.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avatar %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ojo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\correo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\candado.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
